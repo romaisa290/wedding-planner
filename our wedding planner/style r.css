@@ -1,0 +1,194 @@
+
+/* navbar */
+  body{
+    background-color: papayawhip;
+  }
+  .navbar {
+    background-color: #650729;
+    /* color: white; */
+  }
+  .btn {
+    background-color: #c70d51;
+    color: white;
+    font-size: 20px;
+    /* padding: 20px; */
+    font-family: Baskerville Old Face;
+    border-radius: 30px;
+  }
+
+  .btn:hover {
+    background: radial-gradient(darksalmon, rgb(225, 100, 159));
+  }
+
+  .navbar-brand {
+    color: white;
+    font-family: Baskerville Old Face;
+    /* font-weight: bold; */
+    font-size: 20px;
+  }
+  .navbar-brand:hover {
+    color: white;
+  }
+  .nav-link {
+    color: white;
+    justify-content: space-between;
+  }
+  .nav-item:hover {
+    /* background-color: rgb(180, 39, 104); */
+    background: radial-gradient(darksalmon, rgb(225, 100, 159));
+    border-radius: 30px;
+    color: white;
+  }
+  .nav-item {
+    font-size: 20px;
+    padding: 15px;
+    font-family: Baskerville Old Face;}
+   .nav-link:hover{
+      color: black;
+    }
+  .carousel-caption h5{
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+}
+
+  /* caarousal */
+.carousel-caption p{
+font-size: 25px;
+font-style: bold;
+}
+.carousel-item img{
+    height: 80vh;
+}
+/* footer */
+.footer {
+    background-color: #650729;
+    font-family: Baskerville Old Face;
+  }
+  .mb-3 {
+    background-color: rgba(255, 192, 203, 0.416);
+    /* width: 100px; */
+    text-align: center;
+    border-radius: 15px;
+  }
+  p {
+    text-align: center;
+  }
+  ul {
+    text-align: center;
+  }  
+  
+  /* cards services */
+  .serv-cards{
+    width: 350px;
+   padding: 20px;
+   margin-left: 50px;
+   margin-bottom: 50px;
+   cursor: pointer;
+   transition: 0.3s;
+  }
+  .serv-cards:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    opacity:0.7;
+  }
+  .card-text{
+    /* font-family: Brush Script Std; */
+    font-size: 15px;
+    font-family: Lucida Calligraphy;
+  }
+
+ /* menu cards */
+  .main{
+    background-image: url('images/menu4.jpeg');
+    background-size: cover;
+    padding: 350px 0;
+    width: auto;
+  }  
+  /* menue1;    */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;   
+}
+ .menu-card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 30px 10px 10px rgba(0, 0, 0, 0.534) ;
+} 
+/* Individual Card */
+ .menu-card {
+     background: url('images/menu4.jpeg') no-repeat center center/cover; /* Replace this with your image URL */
+    /* / color: #333; */ 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* top: 10px; */
+    bottom: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    /* backdrop-filter: brightness(0.9); */
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+     zoom: 20px;   
+} 
+.menu-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background: rgba(255, 255, 255, 0.073); 
+    /* z-index: 1; */
+}
+.menu-card > * {
+    position: relative;
+    /* z-index: 2; */
+}
+.menu-card h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5rem;
+    color: #811d37;
+    margin-bottom: 10px;
+}
+.menu-card h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 15px 0 5px;
+    color: #444;
+    text-transform: uppercase;
+}
+.menu-card p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .menu-card {
+        width: 70%;
+    }
+}
+.img-hvr:hover{
+  width: 50px;
+  box-shadow: 5px 0px 5px 0px rgba(255, 255, 255, 0.411);
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.bg-link:hover{
+  background-color: rgba(0, 0, 0, 0.316);
+  border-radius: 50px;
+}
+
+

@@ -1,0 +1,197 @@
+body{
+    background-color: papayawhip;
+  }
+  .navbar {
+    background-color: #650729;
+    /* color: white; */
+  }
+
+  .btn {
+    background-color: #c70d51;
+    color: white;
+    font-size: 20px;
+    /* padding: 20px; */
+    font-family: Baskerville Old Face;
+    border-radius: 30px;
+  }
+
+  .btn:hover {
+    background: radial-gradient(darksalmon, rgb(225, 100, 159));
+  }
+
+  .navbar-brand {
+    color: white;
+    font-family: Baskerville Old Face;
+    /* font-weight: bold; */
+    font-size: 20px;
+
+  }
+
+  .navbar-brand:hover {
+    color: white;
+  }
+
+  /* .navbar-nav{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    } */
+  .nav-link {
+    color: white;
+    justify-content: space-between;
+  }
+
+  .nav-item:hover {
+    /* background-color: rgb(180, 39, 104); */
+    background: radial-gradient(darksalmon, rgb(225, 100, 159));
+    border-radius: 30px;
+    
+    /* color: black; */
+
+  }
+ .nav-link:hover{
+    color: black;
+    /* font-style: italic; */
+  }
+  .nav-item {
+    font-size: 20px;
+    padding: 15px;
+    font-family: Baskerville Old Face;
+  }
+  .footer {
+    background-color: #650729;
+    font-family: Baskerville Old Face;
+  }
+
+  .mb-3 {
+    background-color: rgba(255, 192, 203, 0.416);
+    /* width: 100px; */
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  .main {
+    background: url('images/mainimg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    font-family: Brush Script MT;
+    text-align: end;
+    padding: 150px 0;
+
+  }
+  .para{
+    background-image: url(images/wallpaper.avif);
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    /* width: 500px; */
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+    
+  }
+  .h1{
+    text-align: center;
+    font-family: Brush Script MT;
+    font-size: 36px;
+  }
+  .para:hover{
+    font-family: cursive;
+    font-size: x-large;
+    border-radius: 50px;
+    transition: 1s;
+    /* text-decoration: underline; */
+
+  }
+  /* Wedding Demo Section Styles */
+.wedding-demo {
+padding: 50px 20px;
+/* background: #f9f9f9; */
+text-align: center;
+border: 3px solid #650729;
+border-radius: 30px;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.section-title {
+font-size: 2.5em;
+margin-bottom: 30px;
+color:black;
+font-family: Brush Script MT;
+}
+
+.demo-grid {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+
+.demo-card {
+background:#650729 ;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+width: calc(33% - 20px);
+min-width: 280px;
+overflow: hidden;
+}
+
+.demo-img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.demo-card h3 {
+font-size: 1.5em;
+margin: 15px 0;
+color: white;
+font-family:Brush Script MT;
+}
+
+.demo-card p {
+font-size: 1em;
+padding: 0 15px 20px;
+color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.demo-card:hover{
+transform: scale(1.2);
+box-shadow: 10px 10px 5px 0px;
+border: 2px solid #c70d51;
+transition-duration: 1s;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+.demo-card {
+  width: calc(50% - 20px);
+}
+}
+
+@media (max-width: 480px) {
+.demo-card {
+  width: 100%;
+}
+}
+.img-hvr:hover{
+width: 50px;
+box-shadow: 5px 0px 5px 0px rgba(255, 255, 255, 0.411);
+/* border: 2px solid white; */
+border-radius: 10px;
+transition: 1s;
+}
+.bg-link:hover{
+background-color: rgba(0, 0, 0, 0.316);
+border-radius: 50px;
+}
