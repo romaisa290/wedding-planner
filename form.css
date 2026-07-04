@@ -1,0 +1,223 @@
+body{
+    background-color: papayawhip;
+  }
+  .navbar {
+    background-color: #650729;
+    /* color: white; */
+  }
+
+  .btn {
+    background-color: #c70d51;
+    color: white;
+    font-size: 20px;
+    /* padding: 20px; */
+    font-family: Baskerville Old Face;
+    border-radius: 30px;
+  }
+
+  .btn:hover {
+    background: radial-gradient(darksalmon, rgb(225, 100, 159));
+  }
+
+  .navbar-brand {
+    color: white;
+    font-family: Baskerville Old Face;
+    /* font-weight: bold; */
+    font-size: 20px;
+
+  }
+
+  .navbar-brand:hover {
+    color: white;
+  }
+
+  /* .navbar-nav{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    } */
+  .nav-link {
+    color: white;
+    justify-content: space-between;
+  }
+
+  .nav-item:hover {
+    /* background-color: rgb(180, 39, 104); */
+    background: radial-gradient(darksalmon, rgb(225, 100, 159));
+    border-radius: 30px;
+    color: white;
+
+  }
+
+  .nav-item {
+    font-size: 20px;
+    padding: 15px;
+    font-family: Baskerville Old Face
+  }
+      .registration-container {
+          width: 850px;
+          height: 500px;
+          /* background-color: #fff; */
+          background-image: url('images/shadi1.jpg');
+          background-position: center;
+          background-size: cover;
+          padding: 20px;
+          border: 1px solid #ddd;
+          border-radius: 30px;
+          box-shadow: 0 0 10px rgba(0,0,0,0,1);
+          /* display: flex;
+          justify-content: center;
+          align-items: center; */
+          /* margin-top: 1%;
+          margin-left: 20%;
+          margin-bottom: 1%; */
+          margin: auto;
+          border: 2px solid black;
+          box-shadow: 3px 4px ;
+      }
+     .registration-form{
+      display: flex;
+      flex-direction: column;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+     } 
+     .registration-form h1{
+      text-align: center;
+      margin-bottom: 20px;
+      font-family: Brush Script MT;
+      font-size: 45px;
+      color: white;
+     }
+     .registration-form input{
+      background-color: transparent;
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      width: 70%;
+      margin-left: 100px;
+      height: 40px;
+      margin-bottom: 40px;
+      border: none;
+      border-bottom: 2px solid black;
+      outline: none;
+     }
+     .registration-form input::placeholder{
+      color: rgb(251, 247, 247);
+     }
+     .registration-form button{
+      width: 40%;
+      margin-left: 15%;
+      height: 0px;
+      background-color: palevioletred;
+      color: black;
+      padding: 20px 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: 3px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-family: Bodoni MT Black;
+      font-size: 20px;
+      
+      
+  }
+     .registration-form button:hover{
+      background-color: pink;
+      border: 2px solid black;
+      box-shadow: 2px 2px;
+      transform: scale(1.1);
+      font-family: Bodoni MT Black;
+      /* font-size: 20px; */
+
+
+     }
+     .registration-container a{
+      text-decoration: none;
+       display: flex;
+      justify-content: flex-end;
+       margin-top: -45px;
+       margin-right: 8.8%;
+}
+.btn1{
+      text-decoration: none;
+      width: 40%;
+      margin-left: 20%;
+      height: 0px;
+      background-color: palevioletred;
+      color: black;
+      padding: 20px 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: 3px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-family: Bodoni MT Black;
+      font-size: 20px;
+      margin-top: 0px;
+      
+      
+      
+}
+.btn1:hover{
+background-color: pink;
+      border: 2px solid black;
+      box-shadow: 2px 2px;
+      transform: scale(1.1);
+      font-family: Bodoni MT Black;
+}
+
+
+.footer{
+    background-color: #650729;
+    font-family: Baskerville Old Face;
+  }
+
+  .mb-3{
+    background-color: rgba(255, 192, 203, 0.416);
+    /* width: 100px; */
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  ul{
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+      .registration-container{
+          width: 80%;
+      }
+}
+@media only screen and (max-width: 480px){
+  .registration-container{
+      width: 90%;
+  }
+  .registration-form input{
+      height: 30px;
+  }
+  .registration-form button{
+      height: 30px;
+  }
+}
+.nav-link:hover{
+    color: black;
+    /* font-style: italic; */
+  }
+  .img-hvr:hover{
+width: 50px;
+box-shadow: 5px 0px 5px 0px rgba(255, 255, 255, 0.411);
+/* border: 2px solid white; */
+border-radius: 10px;
+transition: 1s;
+}
+.bg-link:hover{
+background-color: rgba(0, 0, 0, 0.316);
+border-radius: 50px;
+}

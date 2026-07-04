@@ -1,0 +1,241 @@
+body{
+  background-color: papayawhip;
+   
+}
+  .navbar {
+    background-color: #650729;
+    /* color: white; */
+  }
+
+  .btn {
+    background-color: #c70d51;
+    color: white;
+    font-size: 20px;
+    /* padding: 20px; */
+    font-family: Baskerville Old Face;
+    border-radius: 30px;
+  }
+
+  .btn:hover {
+    background: radial-gradient(darksalmon, rgb(225, 100, 159));
+  }
+
+  .navbar-brand {
+    color: white;
+    font-family: Baskerville Old Face;
+    /* font-weight: bold; */
+    font-size: 20px;
+
+  }
+
+  .navbar-brand:hover {
+    color: white;
+  }
+
+  /* .navbar-nav{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    } */
+  .nav-link {
+    color: white;
+    justify-content: space-between;
+  }
+
+  .nav-item:hover {
+    /* background-color: rgb(180, 39, 104); */
+    background: radial-gradient(darksalmon, rgb(225, 100, 159));
+    border-radius: 30px;
+    
+    /* color: black; */
+
+  }
+ .nav-link:hover{
+    color: black;
+    /* font-style: italic; */
+  }
+  .nav-item {
+    font-size: 20px;
+    padding: 15px;
+    font-family: Baskerville Old Face;
+  }
+  .footer {
+    background-color: #650729;
+    font-family: Baskerville Old Face;
+  }
+
+  .mb-3 {
+    background-color: rgba(255, 192, 203, 0.416);
+    /* width: 100px; */
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  ul {
+    text-align: center;
+  }
+  .img-hvr:hover{
+width: 50px;
+box-shadow: 5px 0px 5px 0px rgba(255, 255, 255, 0.411);
+/* border: 2px solid white; */
+border-radius: 10px;
+transition: 1s;
+}
+.bg-link:hover{
+background-color: rgba(0, 0, 0, 0.316);
+border-radius: 50px;
+}
+/* contact */
+.container1{
+          background-image: url('images/shaadi.jpg');
+          background-position: center;
+          background-size: cover;
+          border: none;
+          border: 5px solid black;
+           outline: none;
+          width: 50%;
+          height: 88vh;
+          margin: 10px;
+          padding: 10px;
+          border-radius: 25px;
+          /* background-repeat: no-repeat; */
+          /* background-position: center; */
+      }
+
+.contact-section{
+  padding: 50px 0;
+  background-color: white;
+  color: rgb(15, 14, 14);
+  text-align: center;
+}
+
+.contact-section h2{
+      text-align: center;
+      margin-bottom: 20px;
+      font-family: Brush Script MT;
+      font-size: 50px;
+      color: black;
+}
+
+
+.contact-section p{
+  font-size: 20px;
+  font-weight: 40px bolder;
+  margin-bottom: 40px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container1{
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group{
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: left;
+  background-color: transparent;
+}
+
+.form-group label {
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input{
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+  width: 70%;
+  margin-left: 100px;
+  height: 40px;
+  margin-bottom: 40px;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  height: 60%;
+}
+input::placeholder {
+color: white;
+/* opacity: 0.5; */
+}
+
+.form-group textarea{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d6bfbf;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+textarea::placeholder{
+  color: white;
+}
+
+.form-group textarea{
+  resize: vertical;
+  height: 130px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid black ;
+  font-size: 20px;
+  
+
+}
+
+.submit-btn{
+       width: 40%;
+      margin-left: 30%;
+      height: 0px;
+      background-color: palevioletred;
+      color: black;
+      padding: 20px 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: 3px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-family: Bodoni MT Black;
+      font-size: 20px;
+}
+
+.submit-btn:hover{
+  /* background-color: maroon; */
+  /* color: white; */
+  background-color: pink;
+      border: 2px solid black;
+      box-shadow: 2px 2px;
+      transform: scale(1.1);
+      font-family: Bodoni MT Black;
+}
+
+@media (max-width: 768px) {
+  .contact-section h2 {
+      font-size: 30px;
+  }
+
+  .contact-form {
+      width: 90%;
+  }
+}

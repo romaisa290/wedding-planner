@@ -1,0 +1,157 @@
+body{
+    background: radial-gradient(palevioletred,peachpuff);
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: #650729;
+    /* color: white; */
+  }
+
+  .btn {
+    background-color: #c70d51;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    font-family: Baskerville Old Face;
+    border-radius: 30px;
+  }
+
+  .btn:hover {
+    background: radial-gradient(darksalmon, rgb(225, 100, 159));
+  }
+  .img{
+    background-color: rgb(54, 8, 8);
+    width: 95%;
+    height: 350px;
+    margin: auto;
+   
+  }
+  img:hover{
+    zoom: 1;
+    transition-duration: 1s;
+  }
+  .section{
+    margin: auto;
+    justify-content: center;
+  }
+  .container1{
+    /* background-color: palevioletred; */
+    /* display: flex; */
+    text-align: center;
+    text-decoration: double;
+    padding: 0px;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+  }
+  .h1{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 70px;
+    font-family: Kunstler Script;  
+    font-weight: bolder;
+  }
+ 
+  .navbar {
+    background-color: #650729;
+  
+    /* color: white; */
+  }
+
+  .btn {
+    background-color: #c70d51;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Baskerville Old Face;
+    border-radius: 30px;
+  }
+
+  .btn:hover {
+    background: radial-gradient(darksalmon, rgb(225, 100, 159));
+  }
+  .navbar-brand {
+    color: white;
+    font-family: Baskerville Old Face;
+    /* font-weight: bold; */
+    font-size: 20px;
+
+  }
+
+  .navbar-brand:hover {
+    color: white;
+  }
+
+  /* .navbar-nav{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    } */
+  .nav-link {
+    color: white;
+    justify-content: space-between;
+  }
+
+  .nav-item:hover {
+    /* background-color: rgb(180, 39, 104); */
+    background: radial-gradient(darksalmon, rgb(225, 100, 159));
+    border-radius: 30px;
+    color: white;
+
+  }
+
+  .nav-item {
+    font-size: 20px;
+    padding: 15px;
+    font-family: Baskerville Old Face;
+  }
+
+  .footer {
+    background-color: #650729;
+    font-family: Baskerville Old Face;
+  }
+
+  .mb-3 {
+    background-color: rgba(255, 192, 203, 0.416);
+    /* width: 100px; */
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  ul {
+    text-align: center;
+  }
+  @media (max-width:768px){
+    .section{
+     width: calc(50% - 20px);
+    }
+ }
+  @media (max-width:480px){
+    .section{
+     width: 100%;
+    }
+ }
+  .trans-img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 10px 0px  rgba(0, 0, 0, 0.699);
+    z-index: 1;
+  } 
+  .img-hvr:hover{
+    width: 50px;
+    box-shadow: 5px 0px 5px 0px rgba(255, 255, 255, 0.411);
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    transition: 1s;
+  }
+  .bg-link:hover{
+    background-color: rgba(0, 0, 0, 0.316);
+    border-radius: 50px;
+  }
+  .nav-link:hover{
+    color: black;
+  }

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width , initial-scale=1.0">
+  <title>Wedding Planner</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body{
+      background-color: papayawhip;
+    }
+    .navbar {
+      background-color: #650729;
+      /* color: white; */
+    }
+
+    .btn {
+      background-color: #c70d51;
+      color: white;
+      font-size: 20px;
+      padding: 20px;
+      font-family: Baskerville Old Face;
+      border-radius: 30px;
+    }
+
+    .btn:hover {
+      background: radial-gradient(darksalmon, rgb(225, 100, 159));
+    }
+
+    .navbar-brand {
+      color: white;
+      font-family: Baskerville Old Face;
+      /* font-weight: bold; */
+      font-size: 30px;
+
+    }
+
+    .navbar-brand:hover {
+      color: white;
+    }
+
+    /* .navbar-nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      } */
+    .nav-link {
+      color: white;
+      justify-content: space-between;
+    }
+
+    .nav-item:hover {
+      /* background-color: rgb(180, 39, 104); */
+      background: radial-gradient(darksalmon, rgb(225, 100, 159));
+      border-radius: 30px;
+      color: white;
+
+    }
+
+    .nav-item {
+      font-size: 20px;
+      padding: 20px;
+      font-family: Baskerville Old Face;
+    }
+
+    .footer {
+      background-color: #650729;
+      font-family: Baskerville Old Face;
+    }
+
+    .mb-3 {
+      background-color: rgba(255, 192, 203, 0.416);
+      /* width: 100px; */
+      text-align: center;
+      border-radius: 15px;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    ul {
+      text-align: center;
+    }
+
+    .main {
+      background: url('images/mainimg.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      font-family: Brush Script MT;
+      text-align: end;
+      padding: 150px 0;
+    }
+    .card-title{
+      text-align: center;
+      /* font-weight: bold; */
+      font-family: Brush Script MT;
+    }
+    .card-text{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      /* background-color: bisque; */
+    }
+    .container {
+      margin-top: 60px;
+    }
+    #card{
+      padding: 20px;
+      border-radius: 10px;
+      margin: 10px;
+      border: 3px solid #650729;
+      /* background-color: pink; */
+    }
+    .card-body{
+      background-color:#650729;
+      color: white;
+    }
+    .h1{
+      text-align: center; 
+      font-family: Brush Script MT ;
+    }
+    .text{
+      background-image: url(images/wallpaper.avif);
+      border: 2px solid black;
+    }
+    .para{
+      background-image: url(images/wallpaper.avif);
+      border: 2px solid black;
+      padding: 20px;
+      margin: 20px;
+      /* width: 500px; */
+      justify-content: center;
+    }
+    .para:hover{
+      font-family: cursive;
+      border-radius: 50px;
+      /* text-decoration: underline; */
+
+    }
+    .card:hover{
+      display: flex;
+      transform: scale(1.2);
+      z-index: 1;
+    }
+    .services{
+      text-align: center;
+      font-family:Brush Script MT ;
+      background-color: #650729;
+      color: white;
+      padding-top: 10px;
+      border: 10px solid papayawhip;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ////// navbar start /////// -->
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="">
+        <img src="images/LOGO (1).avif" alt="" width="100px">
+        WEDDING PLANNER
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav ms-auto " style="justify-content: space-between;">
+          <li class="nav-item">
+            <a class="nav-link" href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Registration</a>
+          </li>
+        </ul>
+        <form class="d-flex p-2">
+          <button class="btn" type="button">Buy Now</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- //////// navbar end /////// -->
+  <!-- //// home start //// -->
+  <!-- main section -->
+  <section class="main">
+    <div class="container ms-auto">
+      <h1 class="display-4">Make Your Dream Wedding a Reality <br>
+        Let Us Plan Your Perfect Day!!!
+      </h1>
+
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+  <!-- card section -->
+  <h1 class="services">Our Services</h1>
+  <div class="card-group" id="card">
+     
+    <div class="card">
+      <img class="card-img-top" src="images/floral.webp" alt="Card image cap">
+      <div class="card-body">
+        <h2 class="card-title">Floral Decorations</h2>
+        <p class="card-text">Beautiful flower arrangements to add charm to your special day.</p>
+        
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/catering.jpg" alt="Card image cap">
+      <div class="card-body body1">
+        <h2 class="card-title">Catering & Cakes</h2>
+        <p class="card-text">Delicious meals and custom cakes tailored to your taste.</p>
+       
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/entertainment.webp" alt="Card image cap">
+      <div class="card-body">
+        <h2 class="card-title">Entertainment</h2>
+        <p class="card-text">Music, DJ, and performances to keep the celebration lively.</p>
+        
+      </div>
+    </div>
+  </div>
+  <div>
+    <form class="d-flex p-2" style="justify-content: center;">
+      <button class="btn" type="button">SEE MORE</button>
+    </form>
+  </div>
+  <div class="para">
+    <h1 class="h1">Your Dream Event</h1>
+    <p>We provide countless option from wedding. <br>
+    We have various interactive ideas for your dream wedding, <br>
+      your choice is our priority</p>
+  </div>
+ 
+  <!-- //// footer //// -->
+  <footer class=" footer text-white py-5">
+    <div class="container">
+      <div class="row">
+        <!-- About Us -->
+        <div class="col-md-4">
+          <h3 class="mb-3">About Us</h3>
+          <p>
+            We are dedicated to making your dream wedding <br> a reality. From planning to execution, we ensure <br>
+            every detail is perfect for your big day. All you want
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-4">
+          <h3 class="mb-3">Quick Links</h3>
+          <ul class="list-unstyled">
+            <li><a href="#services" class="text-white text-decoration-none">About</a></li>
+            <li><a href="#gallery" class="text-white text-decoration-none">Gallery</a></li>
+            <li><a href="#testimonials" class="text-white text-decoration-none">Registration</a></li>
+            <li><a href="#contact" class="text-white text-decoration-none">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Us -->
+        <div class="col-md-4">
+          <h3 class="mb-3">Contact Us</h3>
+          <p><i class="bi bi-telephone-fill me-2"></i>+92 312466989</p>
+          <p><i class="bi bi-envelope-fill me-2"></i>info@weddingplanner.com</p>
+          <p><i class="bi bi-geo-alt-fill me-2"></i>123 Wedding St, Dream City</p>
+        </div>
+      </div>
+      <hr class="my-4 text-white">
+      <div class="row">
+        <!-- Social Media Links -->
+        <div class="col text-center">
+          <a href="#" class="text-white mx-2"><i class="bi bi-facebook"></i>
+            <!-- <img src="images/facebook.png" alt=""> -->
+          </a>
+          <a href="#" class="text-white mx-2"><i class="bi bi-instagram"></i>
+            <!-- <img src="images/instagram.png" alt=""> -->
+          </a>
+          <a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i>
+            <!-- <img src="images/twitter.png" alt=""> -->
+          </a>
+          <a href="#" class="text-white mx-2"><i class="bi bi-pinterest"></i>
+            <!-- <img src="images/pinterest.png" alt=""> -->
+          </a>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col text-center">
+          <small>&copy; 2024 Wedding Planner. All Rights Reserved.</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ////footer end //// -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
